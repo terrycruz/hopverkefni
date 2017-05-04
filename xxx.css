@@ -1,0 +1,22 @@
+body{
+    max-width: 60em;
+    margin: 0 auto;
+    background-image: url("halo34.jpg");
+     background-repeat: no-repeat;
+}
+.flex{
+	display: flex;
+	flex-flow: row;
+}
+div{
+	margin:10px;
+	font-size: 15px;
+	padding:5px;
+	color:white;
+	font-weight: bold;
+}
+.center{
+	justify-content:space-around;
+	display: flex;
+	flex-flow: row;
+}
